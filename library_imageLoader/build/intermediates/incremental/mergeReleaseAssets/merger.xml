@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="E:\IdeaProjects\KnowAlmost\library_imageLoader\assets"/><source path="E:\IdeaProjects\KnowAlmost\library_imageLoader\build\generated\assets\shaders\release"/></dataSet><dataSet config="release"><source path="E:\IdeaProjects\KnowAlmost\library_imageLoader\src\release\assets"/></dataSet></merger>

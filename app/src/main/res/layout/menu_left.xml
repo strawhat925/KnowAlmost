@@ -1,0 +1,38 @@
+<com.jeremyfeinstein.slidingmenu.lib.SlidingMenu
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="#ffffffff"
+        android:orientation="vertical">
+
+    <!--<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hello_world"/>-->
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="fill_parent"
+                  android:orientation="vertical">
+        <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/menu_avatar_bg">
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/menu_avatar"
+                    android:layout_marginLeft="20dp"
+                    android:layout_centerVertical="true"/>
+
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_centerInParent="true"
+                      android:text="@string/menu_login"
+                      android:textSize="18sp"/>
+        </RelativeLayout>
+        <fragment
+                android:id="@+id/sliging_list"
+                android:name="warehouse.code.knowalmost.view.SlidingListFragment"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                tools:layout="@layout/menu_left_fragment"/>
+    </LinearLayout>
+
+</com.jeremyfeinstein.slidingmenu.lib.SlidingMenu>
