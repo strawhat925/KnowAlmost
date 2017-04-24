@@ -16,4 +16,4 @@
 *.rtf	 diff=astextplain
 *.RTF	 diff=astextplain
 
-*.* linguist-language=android
+linguist-language=android
